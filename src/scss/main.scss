@@ -1,0 +1,13 @@
+@import '~normalize.css';
+@import './fonts.scss';
+
+body {
+    background: #0773FA;
+}
+
+.wrapper {
+    font-family: 'Mulish', sans-serif;
+    font-size: 44px;
+    font-weight: 800;
+    line-height: 28.8px;
+}
