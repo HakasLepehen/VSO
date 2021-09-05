@@ -1,13 +1,77 @@
-@import '~normalize.css';
-@import './fonts.scss';
+@import "~normalize.css";
+@import "./fonts.scss";
 
-body {
-    background: #0773FA;
+* {
+  box-sizing: border-box;
 }
 
 .wrapper {
-    font-family: 'Mulish', sans-serif;
-    font-size: 44px;
-    font-weight: 800;
-    line-height: 28.8px;
+  color: #fff;
+  font-size: 18px;
+  line-height: 48px;
+  min-height: 500vh;
+}
+
+.container {
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.header {
+  background: linear-gradient(
+    180deg,
+    rgba(7, 115, 250, 0.7) 0%,
+    #0773fa 80.03%
+  );
+
+  &__menu {
+    display: flex;
+    padding: 20px 0 0 0;
+    justify-content: space-between;
+  }
+}
+
+.menu {
+  &__logo {
+    // flex: 0 0 136px;
+    // align-items: center;
+
+    .logo__link {
+      display: inline-block;
+      font-size: 0;
+      text-decoration: none;
+
+      :first-child {
+        margin-right: 4px;
+      }
+    }
+  }
+
+  &__body {
+    display: flex;
+    flex: 1 1 auto;
+    justify-content: space-between;
+    padding-left: 47px;
+  }
+
+  &__list {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+    li {
+    }
+  }
+
+  &__item {
+    text-decoration: none;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
 }
