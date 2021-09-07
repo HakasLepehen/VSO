@@ -1,13 +1,13 @@
 .header {
-  background: linear-gradient(
-    180deg,
-    rgba(7, 115, 250, 0.7) 0%,
-    #0773fa 80.03%
-  );
+  // background: linear-gradient(
+  //   180deg,
+  //   rgba(7, 115, 250, 0.7) 0%,
+  //   #0773fa 80.03%
+  // );
+  
   position: fixed;
   width: 100%;
   top: 0;
-  left: 0;
   z-index: 50;
 
   &__body {
@@ -34,7 +34,7 @@
 
   &__btn {
     border: 1px solid #fff;
-    border-radius: 5px;
+    border-radius: 7px;
     color: inherit;
     display: inline-block;
     flex-shrink: 0;

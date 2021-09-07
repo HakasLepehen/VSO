@@ -1,16 +1,18 @@
 @import "~normalize.css";
 @import "./fonts.scss";
 @import './header.scss';
+@import './home.scss';
 
 *,
 *::before,
 *::after {
   box-sizing: border-box;
   text-decoration: none;
+  color: #fff;
+  font-size: 0;
 }
 
 .wrapper {
-  color: #fff;
   font-size: 18px;
   line-height: 48px;
   min-height: 500vh;
