@@ -5,4 +5,33 @@
     #0773fa 80.03%
   );
   min-height: 100vh;
+
+  &__block {
+    padding: 221px 0;
+  }
+
+  &__title > h1 {
+      font-family: 'Mulish';
+      font-style: normal;
+      font-weight: 900;
+      font-size: 51px;
+      line-height: 80px;
+      /* identical to box height, or 157% */
+      
+      text-align: center;
+      letter-spacing: -2.3px;
+      margin: 0 auto;
+  }
+
+  &__subtitle {
+    font-family: 'Mulish';
+    font-size: 21px;
+    line-height: 28px;
+    
+    padding: 20px 220px;
+    /* or 133% */
+
+    text-align: center;
+    letter-spacing: -0.1px;
+  }
 }

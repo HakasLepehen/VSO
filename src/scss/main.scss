@@ -9,7 +9,9 @@
   box-sizing: border-box;
   text-decoration: none;
   color: #fff;
-  font-size: 0;
+  font-size:0; /* убираем горизонтальные отступы */
+	line-height:0; /* ...и вертикальные в некоторых браузерах */
+	letter-spacing:-1px; /* переубеждаем webkit'ы */
 }
 
 .wrapper {
