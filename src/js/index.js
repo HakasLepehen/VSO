@@ -10,3 +10,4 @@ import '../img/home/dctdao.svg';
 import '../img/home/ded.svg';
 import '../img/home/gate-io.svg';
 import '../img/home/pangolin.svg';
+import '../img/home/arrow-right.svg';
