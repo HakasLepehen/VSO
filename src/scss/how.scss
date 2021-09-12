@@ -1,3 +1,74 @@
 .how {
-    background: #0773fa;
+  background: #0773fa;
+
+  &__block {
+  }
+}
+
+.block {
+  padding: 60px 126px;
+
+  &__title {
+    & > h2 {
+      font-weight: 800;
+      font-size: 44px;
+      line-height: 80px;
+      letter-spacing: -2.4px;
+      margin: 0;
+    }
+  }
+
+  &__cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px 0 0 0;
+  }
+}
+
+.card {
+  color: #fff;
+  display: flex;
+  flex: 0 1 380px;
+  flex-direction: column;
+  font-family: "DM Sans", sans-serif;
+
+  &__img {
+      height: 333px;
+      width: 200px;
+      padding-left: 69px;
+  }
+
+  &__label {
+      display: flex;
+  }
+
+  &__marker {
+    background: #fff;
+    border-radius: 50%;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    flex: 0 0 55px;
+    height: 55px;
+
+    & > span {
+        color: #0d6bd8;
+        font-style: bold;
+        font-size: 28px;
+        line-height: 55px;
+        transform: rotate(0.83deg);
+    }
+  }
+
+  &__description {
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.83);
+    line-height: 28px;
+    letter-spacing: -0.2px;
+    padding: 10px 18px 0 14px;
+    text-align: left;
+    & > a {
+      color: #033573;
+      font-size: inherit;
+    }
+  }
 }

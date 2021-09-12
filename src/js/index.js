@@ -11,3 +11,5 @@ import '../img/home/ded.svg';
 import '../img/home/gate-io.svg';
 import '../img/home/pangolin.svg';
 import '../img/home/arrow-right.svg';
+import '../img/how/screen1.png';
+import '../img/how/screen2.png';
