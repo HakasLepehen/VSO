@@ -15,13 +15,13 @@
   font-size:0; /* убираем горизонтальные отступы */
 	line-height:0; /* ...и вертикальные в некоторых браузерах */
 	letter-spacing:-1px; /* переубеждаем webkit'ы */
+  margin: 0;
 }
 
 .wrapper {
   font-family: 'Mulish', sans-serif;
   font-size: 18px;
   line-height: 48px;
-  min-height: 500vh;
   text-align: center;
 }
 
